@@ -36,7 +36,7 @@ function App() {
   return (
     <Wrapper>
       <>
-        <h2>Bitcoin Price</h2>
+        <h2>MyTypeCoin Bitcoin Price</h2>
         <select value={currency} onChange={handleCurrencySelection}>
           {data && Object.keys(data).map(currency => (
             <option key={currency} value={currency}> 
